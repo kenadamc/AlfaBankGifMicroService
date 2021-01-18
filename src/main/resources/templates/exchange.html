@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>E-rate</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<div  th:if="${extraData == 'yes'}">
+    <p th:text="'Узнаем курс валюты - ' + ${currency}" />
+    <p th:text="'Текущий курс - ' + ${course}" />
+    <p th:text="'Вчерашний курс - ' + ${yesterday}" />
+    <p th:text="'Путь гифки - ' + ${gifPath}" />
+</div>
+
+<img th:src="${gifPath}">
+</body>
+</html>

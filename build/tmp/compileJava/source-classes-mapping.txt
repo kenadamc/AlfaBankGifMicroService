@@ -1,0 +1,13 @@
+com/example/alfabank/Exchange.java
+ com.example.alfabank.Exchange
+com/example/alfabank/Application.java
+ com.example.alfabank.Application
+com/example/alfabank/Config.java
+ com.example.alfabank.Config
+com/example/alfabank/Gif.java
+ com.example.alfabank.Data
+ com.example.alfabank.Gif
+com/example/alfabank/AlfaBankGifMicroService.java
+ com.example.alfabank.ExchangeClient
+ com.example.alfabank.ExchangeController
+ com.example.alfabank.GifClient
